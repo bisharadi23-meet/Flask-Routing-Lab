@@ -1,4 +1,4 @@
-#welcome {
+.headings {
 	text-align: center;
 	font-family: cursive;
 }
@@ -11,4 +11,39 @@ h2{
 #vinyl1{
 	font-size: 20px;
 	position: relative; left: 140px; top: 30px; 
+}
+
+#vinylbeer{
+  border-radius: 4px;
+  padding: 100px;
+  width: 300px;
+  margin-top:-40px;
+}
+
+#beerinfo{
+	margin-top: 70px;
+	margin-left: -300px;
+}
+
+.btn-group button {
+  background-color: #04AA6D;
+  border: 1px skyblue;
+  color: white; 
+  padding: 10px 24px; 
+  cursor: pointer;
+  float: left;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none;
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:hover {
+  background-color: red;
 }
