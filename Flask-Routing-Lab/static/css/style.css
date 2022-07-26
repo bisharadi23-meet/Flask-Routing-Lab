@@ -1,1 +1,14 @@
-h1 {text-align: center;}
+#welcome {
+	text-align: center;
+	font-family: cursive;
+}
+
+h2{
+	font-family: Sans-serif;
+	font-size: 20px;
+}
+
+#vinyl1{
+	font-size: 20px;
+	position: relative; left: 140px; top: 30px; 
+}
