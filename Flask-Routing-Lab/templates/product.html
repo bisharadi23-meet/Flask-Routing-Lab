@@ -7,13 +7,13 @@
     <h1 class = "headings"> Maybe we have your fav vinyl </h1>
 </head>
 <body>
-    <div class="btn-group">
-  <button onclick="window.location.href='home.html'">Home</button>
-  <button onclick="window.location.href='product.html'">Products</button>
-  <button onclick="window.location.href='cart.html'">Cart</button>
+   <div class="btn-group">
+  <a href="{{url_for('home_page')}}"><button>Home</button></a>
+  <a href="{{url_for('product_page')}}"><button>product</button></a>
+  <a href="{{url_for('cart_page')}}"><button>cart</button></a>
     </div> 
 <h1 id="vinyl1"> beerbongs & bentleys </h1>
 <img id="vinylbeer" src="http://cdn.shopify.com/s/files/1/0024/9803/5810/products/338250-Product-0-I_757edbcb-6306-4a74-ada2-c5702c41d6e4_1024x1024.jpg">
-<li> 30$ </li>
+<li> 30$ </li> 
 </body>
 </html>

@@ -8,9 +8,9 @@
 </head>
 <body>
     <div class="btn-group">
-  <button onclick="window.location.href='home.html'">Home</button>
-  <button onclick="window.location.href='product.html'">Products</button>
-  <button onclick="window.location.href='cart.html'">Cart</button>
+  <a href="{{url_for('home_page')}}"><button>Home</button></a>
+  <a href="{{url_for('product_page')}}"><button>product</button></a>
+  <a href="{{url_for('cart_page')}}"><button>cart</button></a>
     </div> 
     <h2> what do we sell? </h2>
     <li> we sell vinyls.</li>

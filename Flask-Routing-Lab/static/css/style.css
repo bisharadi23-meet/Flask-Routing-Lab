@@ -20,14 +20,9 @@ h2{
   margin-top:-40px;
 }
 
-#beerinfo{
-	margin-top: 70px;
-	margin-left: -300px;
-}
-
 .btn-group button {
   background-color: #04AA6D;
-  border: 1px skyblue;
+  border: 1px solid green;
   color: white; 
   padding: 10px 24px; 
   cursor: pointer;
